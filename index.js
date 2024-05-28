@@ -33,3 +33,11 @@ function guestincrementby3() {
   guestScore += 3;
   guestScoreEl.textContent = guestScore;
 }
+
+let resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", function () {
+  homeScore = 0;
+  guestScore = 0;
+  homeScoreEl.textContent = homeScore;
+  guestScoreEl.textContent = guestScore;
+});

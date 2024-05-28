@@ -10,6 +10,14 @@ body {
   src: url("/fonts/CursedTimerUlil-Aznm.ttf");
 }
 
+main {
+  width: 576px;
+  margin: 50px auto;
+  background-color: #1b244a;
+  height: 385px;
+  border-radius: 5px;
+}
+
 .score,
 button {
   font-family: "Cursed Timer ULiL", sans-serif;
@@ -18,11 +26,7 @@ button {
 .container {
   display: flex;
   justify-content: space-around;
-  width: 576px;
   flex-direction: row;
-  margin: 50px auto;
-  background-color: #1b244a;
-  height: 385px;
 }
 
 h1 {
@@ -47,15 +51,21 @@ h1 {
 .btn {
   display: flex;
   gap: 10px;
+  flex-direction: row;
   padding: 15px 0px 0px;
   justify-content: space-between;
 }
 
 button {
-  padding: 10px;
+  padding: 8px;
   background: #1b244a;
   border: 2px solid #9aabd8;
   border-radius: 5px;
   color: #9aabd8;
   font-size: 18px;
+}
+
+.reset {
+  margin: 20px auto;
+  display: flex;
 }
